@@ -17,7 +17,7 @@ namespace Tyuiu.KhudoiberdievDB.Sprint2.Task5.V2.Test
             Assert.AreEqual("Июнь", ds.FindMonthSeason(6));
             Assert.AreEqual("Июль", ds.FindMonthSeason(7));
             Assert.AreEqual("Август", ds.FindMonthSeason(8));
-            Assert.AreEqual("Сентябрь", ds.FindMonthSeason(9));
+            Assert.AreEqual("осень", ds.FindMonthSeason(9));
             Assert.AreEqual("Октябрь", ds.FindMonthSeason(10));
             Assert.AreEqual("Ноябрь", ds.FindMonthSeason(11));
             Assert.AreEqual("Декабрь", ds.FindMonthSeason(12));
