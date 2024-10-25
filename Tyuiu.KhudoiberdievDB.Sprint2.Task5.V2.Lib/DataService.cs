@@ -34,7 +34,7 @@ namespace Tyuiu.KhudoiberdievDB.Sprint2.Task5.V2.Lib
                     res = "Август";
                     break;
                     case 9:
-                    res = "Сентябрь";
+                    res = "осень";
                     break;
                     case 10:
                     res = "Октябрь";
