@@ -13,11 +13,11 @@ namespace Tyuiu.KhudoiberdievDB.Sprint2.Task7.V9.Lib
             bool res;
             if ((Math.Pow(x, 2) + Math.Pow(y, 2) <= 1) && ((x > 0) && (x <= 1)) && ((y > 0) && (y <= 0.5)))
             {
-                res = true;
+                res = false;
             }
             else
             {
-                res = false;
+                res = true;
             }
             return res;
         }
