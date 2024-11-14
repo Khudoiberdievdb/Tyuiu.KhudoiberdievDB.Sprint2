@@ -26,7 +26,7 @@
 
 
             bool res;
-            if ((x > 0) && (y < Math.Pow(x, 2)) && (y <= 2 - x) || (x < 0) && (y > Math.Pow(x, 2)) && (y >= 2 - x))
+            if ((y >= (2 - x)) && (y <= Math.Pow(x, 2) && (y >= 0) && (x <= 0)) || (Math.Pow(x, 2) >= y) && (y <= (2 - x)) && (x >= 0) && (y >= 0))
             {
                 res = true;
             }
@@ -34,7 +34,8 @@
             {
                 res = false;
             }
-        
+
+
 
 
 
