@@ -26,15 +26,22 @@
 
 
             bool res;
-            if ((Math.Pow(x, 2) + Math.Pow(y, 2) <= 1) && ((x > 0) && (x <= 1)) && ((y > 0) && (y <= 0.5)))
-            {
-                res = true;
-            }
-            else
+            if (((Math.Pow(x, 2) + Math.Pow(y, 2)) <= 1 && y >= 0))
             {
                 res = false;
             }
-            
+            else
+            {
+                if (((Math.Pow(x, 2) + Math.Pow(y, 2)) <= 4 && y >= 0) && (Math.Abs(x) <= 2 && y > 0))
+                {
+                    res = true;
+                }
+                else
+                {
+                    res = false;
+                }
+            }
+
 
 
             Console.WriteLine("********************************************************************************");
